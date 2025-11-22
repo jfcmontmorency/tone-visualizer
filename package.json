@@ -33,7 +33,7 @@
     "oscilloscope",
     "spectrum"
   ],
-  "author": "jf",
+  "author": "Jean-François Cartier",
   "license": "MIT",
   "peerDependencies": {
     "p5": "^1.0.0 || ^2.0.0",
