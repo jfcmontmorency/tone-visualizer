@@ -189,6 +189,3 @@ Make sure you have a container element in your HTML:
 
 Requires ES6+ support and WebGL. Works in all modern browsers.
 
-## License
-
-MIT © jf
