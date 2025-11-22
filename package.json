@@ -1,0 +1,54 @@
+{
+  "name": "tone-visualizer",
+  "version": "1.0.0",
+  "description": "Simple and customizable audio visualizer for Tone.js with p5.js",
+  "main": "dist/visualizer.umd.js",
+  "module": "dist/visualizer.esm.js",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./dist/visualizer.esm.js",
+      "require": "./dist/visualizer.umd.js"
+    }
+  },
+  "types": "dist/visualizer.d.ts",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "tone",
+    "tonejs",
+    "audio",
+    "visualizer",
+    "visualization",
+    "p5",
+    "p5js",
+    "waveform",
+    "fft",
+    "oscilloscope",
+    "spectrum"
+  ],
+  "author": "jf",
+  "license": "MIT",
+  "peerDependencies": {
+    "p5": "^1.0.0 || ^2.0.0",
+    "tone": "^14.0.0 || ^15.0.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "rollup": "^4.9.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jfcmontmorency/tone-visualizer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jfcmontmorency/tone-visualizer/issues"
+  },
+  "homepage": "https://github.com/jfcmontmorency/tone-visualizer#readme"
+}
